@@ -1,3 +1,2 @@
-# This Project is about a landing page (from Odin):
- We will add an index.html and style.css
-
+# The Landing Page of Odin:
+I will try my best to do the same as the project -_-
