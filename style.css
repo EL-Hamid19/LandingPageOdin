@@ -137,3 +137,36 @@
     color: #999;
     font-size: 20px;
 }
+
+.third {
+    width: auto;
+    height: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.third .quoteBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 24px;
+    width: 60%;
+    height: 500px;
+    gap: 20px;
+}
+.quoteBox .quote {
+    font-size: 44px;
+    color: #555;
+    padding: 16px 24px;
+    font-style: italic;
+}
+.quoteBox .author {
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
