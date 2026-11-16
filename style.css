@@ -63,9 +63,11 @@
     font-size: 22px;
     color: #E5E7EB;
 }
+.presentation .btn {
+    border: none;
+}
 .btn {
     background-color: #3882F6;
-    border: none;
     color: #fff;
     font-size: 24px;
     margin: 10px 0;
@@ -169,4 +171,56 @@
     width: 100%;
     text-align: right;
     padding-right: 10px;
+}
+.forth{
+    width: auto;
+    height: 250px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.forth .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    background-color: #3882F6;
+    height: 70%;
+    border-radius: 15px;
+}
+
+.content .talk {
+
+}
+.talk .title {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+}
+.talk .description {
+    color: #bbb;
+    font-size: 18px;
+}
+.content .btn {
+    border: 2px solid #fff;
+    width: 15%;
+}
+
+.fifth{
+    width: auto;
+    height: 150px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+.fifth .copyright {
+    color: #ddd;
+    font-size: 24px;
 }
