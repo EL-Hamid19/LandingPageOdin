@@ -11,17 +11,18 @@
     background-color: #1F2937;
     width: auto;
     height: auto;
+    padding: 15px 0;
 }
 
 .nav {
     display: flex;
     padding: 10px;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     padding: 16px 24px;
 }
 .LogoText {
-    font-size: 24px;
+    font-size: 34px;
     color: #f9faf8;
     font-weight: bold;
 }
@@ -34,5 +35,51 @@
 }
 .links a {
     color: #F9FAF8e0;
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px 24px;
+    margin: 100px 0;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 540px;
+}
+
+.presentation .title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.presentation .talk {
+    font-size: 22px;
+    color: #E5E7EB;
+}
+.btn {
+    background-color: #3882F6;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 8px 24px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.imgBox {
+    width: 720px;
+    height: 400px;
+    background-color: #3882F6;
+}
+.imgBox img {
+    width: 100%;
+    height: 100%;
 }
